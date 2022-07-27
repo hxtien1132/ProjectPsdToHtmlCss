@@ -121,10 +121,14 @@
    /* Large devices (desktops, less than 1200px) */
   @media  (min-width:992px) and (max-width: 1199.98px) {
     .be-features-container .item__one{
+      
       column-gap: 40px;
     }
     .be-features-container .item__two{
       column-gap: 110px; 
+    }
+    .be-features-info {
+      width: 500px;
     }
     }
   

@@ -261,7 +261,35 @@ body {
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (min-width:992px) and (max-width: 1199.98px) {
+  .section-heading {
+    font-size: 24px;
+    margin: 3px 0 10px;
+  }
+  .section-text {
+    margin-bottom: 5px;
+    font-size: 12px;
+    /* width: 350px; */
+  }
+  .section-list {
+    margin-bottom: 8px;
+  }
+  .section-list li {
+    font-size: 8px;
+    padding-bottom: 1px;
+  }
+  .section-button {
+    padding: 5px 15px;
+    font-size: 10px;
+    width: 120px;
+  }
+  .logo-heading .title {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .logo-heading .line {
+    width: 35px;
+  }
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
