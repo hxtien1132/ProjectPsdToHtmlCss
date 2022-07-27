@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,63 +8,106 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
     <!-- <link rel="stylesheet" href="./scss/css/app.css"> -->
-    <link rel="stylesheet" href="./css/app.css">
+    <!-- <link rel="stylesheet" href="./css/app.css"> -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/bannerTwo.css">
+    <link rel="stylesheet" href="./assets/css/key-features.css">
+    <link rel="stylesheet" href="./assets/css/features.css">
+    <link rel="stylesheet" href="./assets/css/woo.css">
+    <link rel="stylesheet" href="./assets/css/be-features.css">
+    <link rel="stylesheet" href="./assets/css/testtimonial.css">
+    <link rel="stylesheet" href="./assets/css/shortcodes.css">
+    <link rel="stylesheet" href="./assets/css/demo.css">
+
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header-top-container">
-                <ul class="menu">
-                    <li>Country
-                        <img src="./img/icons8-chevron-down-16.png" alt="">
-
-                    </li>
-                    <li>Endlish
-                        <img src="./img/icons8-chevron-down-16.png" alt="">
-
-                    </li>
-                    <li>USD
-                        <img src="./img/icons8-chevron-down-16.png" alt="">
-
-                    </li>
-                </ul>
+            <div class="header-top-container ">
+                <div class="menu">
+                    <select class="menu-country menu__children" name="" id="country">
+                        <option value="volvo" selected>COUNTRY</option>
+                        <option value="saab">USA</option>
+                        <option value="vw">VIETNAM</option>
+                        <option value="audi">KOREA</option>
+                    </select>
+                    <select class="menu-english menu__children" name="" id="english">
+                        <option value="volvo" selected>ENGLISH</option>
+                        <option value="saab">VIETNAM</option>
+                        <option value="vw">CHINA</option>
+                        <option value="audi">KOREA</option>
+                    </select>
+                    <select class="menu-usd menu__children" name="" id="usd">
+                        <option value="volvo" selected>USD</option>
+                        <option value="saab">VND</option>
+                        <option value="vw">EURO</option>
+                        <option value="audi">NDT</option>
+                    </select>
+                </div>
                 <div class="header-btn">
-                    <div>Login</div>
-                    <div>Register</div>
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
                 </div>
             </div>
             <div class="header-body-container">
                 <div class="header-logo">
                     <img src="./img/Logo.png" alt="">
                 </div>
+                <div class="menu-container">
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="menu-search">
+                        <button class="btn js-buy-ticket"><i class="fa fa-search icon-search" aria-hidden="true"></i> </button>
+                        <!-- <a href="" class="menu-search-link"><i class="fa fa-search icon-search"></i></a> -->
+                    </div>
+                </div>
                 <ul class="header-nav">
-                    <li>Home
-                        <span class="line"></span>
-                    </li>
-                    <li>page demo
-                        <span class="line"></span>
-                    </li>
-                    <li>features
-                        <span class="line"></span>
-                    </li>
-                    <li>support
-                        <span class="line"></span>
-                    </li>
-                    <li>shop
-                        <span class="line"></span>
+                    <li>
+                        <a href="">
+                            Home
+                        </a>
                     </li>
                     <li>
-                        <img src="./img/icons8-search-16.png" alt="">
+                        <a href="">
+                            Page demo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            feature
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Shop
+                        </a>
+                    </li>
+                  
+                    <li>
+                        <button class="btn js-buy-ticket"><i class="fa fa-search " aria-hidden="true"></i> </button>
                     </li>
                 </ul>
                 <h1 class="header-heading">
-                    discover a stuning website 
+                    discover a stuning website
                 </h1>
-                <h2 class="header-sub-heading">
+                <p class="header-sub-heading">
                     exploore was designed with terrific attention to details
-                </h2>
+                </p>
                 <div class="header-body-btn">
                     <div>see all demo</div>
                     <div>
@@ -94,93 +138,174 @@
                     </div>
                 </div>
             </div>
+
         </header>
         <main>
             <section class="demo">
                 <div class="demo-container">
                     <div class="logo-heading">
-                        <span>be born again</span>
+                        <span class="title">be born again</span>
                         <span class="line"></span>
-                        <img src="./img/walk.png" alt="">
+                        <img class="img-walk" src="./img/walk.png" alt="">
                     </div>
                     <h1 class="section-heading">choose a demo</h1>
                     <h3 class="section-text">
                         We provide perfect demo for all of business. Choose our demo and enjoy it!
                     </h3>
-                    <ul class="demo-menu">
-                        <li>all</li>
-                        <li>multi pages</li>
-                        <li>corporate</li>
-                        <li>one page</li>
-                        <li>porfolio</li>
-                        <li>blog</li>
-                        <li>e-commerce</li>
-                        <li>intros</li>
-                        <li>other</li>
-                    </ul>
+                 
+                    <div id="filters" class="filter button-group">
+                        <button class="button is-checked" data-name="*">all</button>
+                        <button class="button" data-name=".multipages">multipages</button>
+                        <button class="button" data-name=".corporate">corporate</button>
+                        <button class="button" data-name=".onepage">one page</button>
+                        <button class="button" data-name=".porfolio">porfolio</button>
+                        <button class="button" data-name=".blog">blog</button>
+                        <button class="button" data-name=".commerce">e-commerce</button>
+                        <button class="button" data-name=".other">other</button>
+                    </div>
                     <div class="demo-list">
-                        <div class="demo-item">
-                            <img src="./img/pic1.png" alt="">
-                            <p>01. home default</p>
+                        <div class="demo-item multipages">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo1.png" alt="">
+                            </div>
+                            <p>01. home defaul</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic2.png" alt="">
+                        <div class="demo-item multipages">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo2.png" alt="">
+                            </div>
                             <p>02. home ver 01</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic3.png" alt="">
+                        <div class="demo-item multipages">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo3.png" alt="">
+                            </div>
                             <p>03. home ver 02</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic4.png" alt="">
+                        <div class="demo-item multipages">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo4.png" alt="">
+                            </div>
                             <p>04. home ver 03</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic5.png" alt="">
+                        <div class="demo-item corporate">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo5.png" alt="">
+                            </div>
                             <p>05. about us</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic6.png" alt="">
+                        <div class="demo-item corporate">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo6.png" alt="">
+                            </div>
                             <p>06. tour result</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic7.png" alt="">
+                        <div class="demo-item onepage">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo7.png" alt="">
+                            </div>
                             <p>07. hotel result</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic8.png" alt="">
-                            <p>08. flight result</p>
+                        <div class="demo-item onepage">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo8.png" alt="">
+                            </div>
+                            <p>08. fight result</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic9.png" alt="">
-                            <p>09. cruise result</p>
+                        <div class="demo-item porfolio">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo9.png" alt="">
+                            </div>
+                            <p>09. cruises result</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic10.png" alt="">
+                        <div class="demo-item porfolio">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo10.png" alt="">
+                            </div>
                             <p>10. car rent result</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic11.png" alt="">
+                        <div class="demo-item blog">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo11.png" alt="">
+                            </div>
                             <p>11. tour view</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic12.png" alt="">
-                            <p>12. hotel new</p>
+                        <div class="demo-item blog">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo12.png" alt="">
+                            </div>
+                            <p>12. hotel view</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic13.png" alt="">
+                        <div class="demo-item commerce">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo13.png" alt="">
+                            </div>
                             <p>13. blog</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic14.png" alt="">
+                        <div class="demo-item commerce">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo14.png" alt="">
+                            </div>
                             <p>14. blog detail</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic15.png" alt="">
-                            <p>15. contact</p>
+                        <div class="demo-item other">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                                <img src="./img/demo15.png" alt="">
+                            </div>
+                            <p>15. con tact</p>
                         </div>
-                        <div class="demo-item">
-                            <img src="./img/pic16.png" alt="">
+                        <div class="demo-item other">
+                            <div class="demo-item-children">
+                                <div class="demo-item-icon">
+                                    <i class="fas fa-plus fa-3x "></i>
+                                </div>
+                                <img src="./img/demo16.png" alt="">
+                            </div>
                             <p>16. error page</p>
                         </div>
                     </div>
@@ -188,16 +313,20 @@
             </section>
             <section class="features">
                 <div class="features-container">
-                    <div class="logo-heading">
-                        <span>be born again</span>
-                        <span class="line"></span>
-                        <img src="./img/walk.png" alt="">
-                    </div>
-                    <div class="section-heading">
-                        The Easiest Way to Create
-                    </div>
-                    <div class="section-text">
-                        Build your business beautiful. Flexi has a business demo for every need, and a beautiful website makes it much easier.
+                    <div class="fetures-content">
+                        <div class="logo-heading">
+                            <span class="title">be born again</span>
+                            <span class="line"></span>
+                            <img class="img-walk" src="./img/walk.png" alt="">
+                        </div>
+                        <div class="section-heading">
+                            The Easiest Way to Create
+                        </div>
+                        <div class="section-text">
+                            Build your business beautiful. Flexi has a business demo for every need, and a beautiful
+                            website
+                            makes it much easier.
+                        </div>
                     </div>
                     <ul class="features-list">
                         <li class="feature-item">
@@ -206,9 +335,11 @@
                             </div>
                             <div class="feature-info">
                                 <h2>Unlimited Color</h2>
-                                <p>With color picker in admin panel, you can make your site more dynamic. You can choose a color from popup with one click or paste your code into field.</p>
+                                <div>With color picker in admin panel, you can make your site more dynamic. You can
+                                    choose
+                                    a color from popup with one click or paste your code into field.</div>
                             </div>
-                            
+
                         </li>
                         <li class="feature-item">
                             <div class="feature-img">
@@ -216,7 +347,9 @@
                             </div>
                             <div class="feature-info">
                                 <h2>Translation Ready</h2>
-                                <p>With color picker in admin panel, you can make your site more dynamic. You can choose a color from popup with one click or paste your code into field.</p>
+                                <div>With color picker in admin panel, you can make your site more dynamic. You can
+                                    choose
+                                    a color from popup with one click or paste your code into field.</div>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -225,7 +358,7 @@
                             </div>
                             <div class="feature-info">
                                 <h2>700+ Google Web Fonts</h2>
-                                <p>We come with 700+ web optimized google fonts.</p>
+                                <div>We come with 700+ web optimized google fonts.</div>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -234,7 +367,7 @@
                             </div>
                             <div class="feature-info">
                                 <h2>WooCommerce Ready</h2>
-                                <p>Create full eCommerce sites easily with WooCommerce</p>
+                                <div>Create full eCommerce sites easily with WooCommerce</div>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -243,7 +376,9 @@
                             </div>
                             <div class="feature-info">
                                 <h2>Slider Revolution</h2>
-                                <p>With color picker in admin panel, you can make your site more dynamic. You can choose a color from popup with one click or paste your code into field</p>
+                                <div>With color picker in admin panel, you can make your site more dynamic. You can
+                                    choose
+                                    a color from popup with one click or paste your code into field</div>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -252,7 +387,9 @@
                             </div>
                             <div class="feature-info">
                                 <h2>Visual Composer</h2>
-                                <p>mo & .po files are prepared in advanced, you can create a multi language site quickly & automatically</p>
+                                <div>mo & .po files are prepared in advanced, you can create a multi language site
+                                    quickly
+                                    & automatically</div>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -261,7 +398,7 @@
                             </div>
                             <div class="feature-info">
                                 <h2>Documentation Guide</h2>
-                                <p>We come with 700+ web optimized google fonts.</p>
+                                <div>We come with 700+ web optimized google fonts.</div>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -270,7 +407,7 @@
                             </div>
                             <div class="feature-info">
                                 <h2>Superior</h2>
-                                <p>Create full eCommerce sites easily with WooCommerce.</p>
+                                <div>Create full eCommerce sites easily with WooCommerce.</div>
                             </div>
                         </li>
 
@@ -278,38 +415,53 @@
                 </div>
             </section>
             <section class="banner">
-                <div class="banner-container">
-                    <img src="./img/banner-bg.png" alt="" class="banner-bg">
-                    <div class="logo-heading">
-                        <span>be born again</span>
-                        <span class="line"></span>
-                        <img src="./img/walk.png" alt="">
-                    </div>
-                    <div class="section-heading">
-                        beautiful business demo for all your needs
-                    </div>
-                    <div class="section-text">
-                        Build your business beautiful. Flexi has a business demo for every need, and a beautiful website make it much easier
-                    </div>
-                    <div class="banner-list">
-                        <div>
-
+                <div class="banner-container  ">
+                    <!-- <img src="./img/banner-bg2.png" alt="" class="banner-bg"> -->
+                    <div class="banner-container__content">
+                        <div class="logo-heading">
+                            <span class="title">be born again</span>
+                            <span class="line"></span>
+                            <img class="img-walk" src="./img/walk.png" alt="">
                         </div>
+                        <div class="section-heading">
+                            beautiful business demos for all your needs
+                        </div>
+                        <div class="section-text">
+                            Build your business beautiful. Flexi has a business demo for every need, and a beautiful
+                            website
+                            make it much easier
+                        </div>
+                        <ul class="section-list">
+                            <li>
+                                <span>&#10003;</span>
+                                Fleaxible custom layout
+                            </li>
+                            <li>
+                                <span>&#10003;</span>
+                                Beautiful demo with creative elements
+                            </li>
+                            <li>
+                                <span>&#10003;</span>
+                                Innovative,powerful & highly userful features
+                            </li>
+                        </ul>
                     </div>
-                    <img src="./img/banner-mk.png" alt="" class="banner-mockup">
+                    <div class="banner-container-img">
+                        <img src="./img/banner-mk.png" alt="" class="banner-img">
+                    </div>
                 </div>
             </section>
             <section class="key-feature">
                 <div class="key-feature-container">
                     <div class="logo-heading">
-                        <span>be born again</span>
+                        <span class="title">be born again</span>
                         <span class="line"></span>
-                        <img src="./img/walk.png" alt="">
+                        <img class="img-walk" src="./img/walk.png" alt="">
                     </div>
                     <div class="section-heading">key features</div>
                     <div class="section-text">
                         Build your business beautiful. Flexi has a business demo for every need,
-                and a beautiful website makes it much easier.
+                        <br> and a beautiful website makes it much easier.
                     </div>
                     <div class="key-feature-list">
                         <div class="key-feature-item">
@@ -389,49 +541,56 @@
                 </div>
             </section>
             <section class="woo">
-                <img src="./img/woo-bg.jpg" alt="" class="woo-bg">
-                <div class="woo-img">
-                    <img src="./img/pc.png" alt="">
-                </div>
+                <!-- <img src="./img/woo-bg2.psd.png" alt="" class="woo-bg"> -->
                 <div class="woo-container">
-                    <div class="logo-heading">
-                        <span>be born again</span>
-                        <span class="line"></span>
-                        <img src="./img/walk.png" alt="">
+                    <div class="woo-img">
+                        <img src="./img/pc2.png" alt="">
                     </div>
-                    <div class="section-heading">beautiful business for all your needs</div>
-                    <div class="section-text">
-                        Build your business beautiful. Flexi has a  business demo for every need, and a beautiful website makes it much easier.
-                    </div>
-                   
-                    <div class="woo-list">
-                        <div class="woo-item">
-                            <span>&#10003;</span>
-                            Fleaxible custom layout
+                    <div class=" woo-container__content">
+                        <div class="logo-heading">
+                            <span class="title">be born again</span>
+                            <span class="line"></span>
+                            <img class="img-walk" src="./img/walk.png" alt="">
                         </div>
-                        <div class="woo-item">
-                            <span>&#10003;</span>
-                            Beautiful demos with creative elements  
+                        <div class="section-heading">
+                            beautiful business demos for all your needs
                         </div>
-                        <div class="woo-item">
-                            <span>&#10003;</span>
-                            Innovative, powerful and highly useful features
+                        <div class="section-text">
+                            Build your business beautiful. Flexi has a business demo for every need, and a beautiful
+                            website
+                            make it much easier
                         </div>
+                        <ul class="section-list">
+                            <li>
+                                <span>&#10003;</span>
+                                Fleaxible custom layout
+                            </li>
+                            <li>
+                                <span>&#10003;</span>
+                                Beautiful demo with creative elements
+                            </li>
+                            <li>
+                                <span>&#10003;</span>
+                                Innovative,powerful & highly userful features
+                            </li>
+                        </ul>
+                        <button class="section-button">view demo</button>
                     </div>
                 </div>
             </section>
             <section class="shortcodes">
                 <div class="shortcodes-container">
                     <div class="logo-heading">
-                        <span>be born again</span>
+                        <span class="title">be born again</span>
                         <span class="line"></span>
-                        <img src="./img/walk.png" alt="">
+                        <img class="img-walk" src="./img/walk.png" alt="">
                     </div>
                     <div class="section-heading">
                         key features
                     </div>
                     <div class="section-text">
-                        Build your business beautiful. Flexi has a business demo for every need, and a beautiful website makes it much easier.
+                        Build your business beautiful. Flexi has a business demo for every need, and a beautiful website
+                        makes it much easier.
                     </div>
                     <div class="shortcodes-img">
                         <img src="./img/shortcode.jpg" alt="">
@@ -439,68 +598,62 @@
                             200+
                         </div>
                     </div>
-                    <div class="shortcodes-btn">
+                    <!-- <div class="shortcodes-btn">
                         all shortcodes
-                    </div>
-                    
+                    </div> -->
                 </div>
             </section>
-            <section class="bn">
-                <div class="bn-text">
+            <section class="bannerTwo">
+                <div class="bannerTwo-text">
                     <span>Build amazing sites using</span> Shortcodes
-                    <div class="bn-heading">Switch between Class & Modern style</div>
+                    <div class="bannerTwo-heading">Switch between Class & Modern style</div>
                 </div>
             </section>
             <section class="be-features">
                 <div class="be-features-container">
-                    <div class="be-features-item">
-                        <div class="be-features-item-img">
-                            <img src="./img/be1.png" alt="" class="">
-
-                        </div>
-                        <div class="be-features-info">
+                    <div class="be-features-item item__one">
+                        <div class="be-features-info info__one">
                             <div class="logo-heading">
-                                <span>be born again</span>
+                                <span class="title">be born again</span>
                                 <span class="line"></span>
-                                <img src="./img/walk.png" alt="">
+                                <img class="img-walk" src="./img/walk.png" alt="">
                             </div>
                             <div class="section-heading">
-                                beautiful business demo for all your needs
+                                beautiful business demos for all your needs
                             </div>
                             <div class="section-text">
                                 Build your business beautiful. Flexi has a business demo for every need,
                                 and a beautiful website makes it much easier.
                             </div>
-                            <ul class="be-features-info-list">
-                               
+                            <ul class="section-list">
                                 <li>
                                     <span>&#10003;</span>
                                     Fleaxible custom layout
                                 </li>
                                 <li>
                                     <span>&#10003;</span>
-                                    Beautiful demos with creative elements  
+                                    Beautiful demos with creative elements
                                 </li>
                                 <li>
                                     <span>&#10003;</span>
                                     Innovative, powerful and highly useful features
                                 </li>
                             </ul>
-                            <div class="be-features-info-btn">
-                                view demo
-                            </div>
+                            <button class="section-button">view demo</button>
+                        </div>
+                        <div class="be-features-item-img img__one">
+                            <img src="./img/be-fe1.png" alt="" class="">
                         </div>
                     </div>
-                    <div class="be-features-item">
-                        <div class="be-features-item-img">
-                            <img src="./img/be2.jpg" alt="" class="">
-
+                    <div class="be-features-item item__two">
+                        <div class="be-features-item-img img__two">
+                            <img src="./img/be-fe2.png" alt="" class="">
                         </div>
-                        <div class="be-features-info">
+                        <div class="be-features-info info__two">
                             <div class="logo-heading">
-                                <span>be born again</span>
+                                <span class="title">be born again</span>
                                 <span class="line"></span>
-                                <img src="./img/walk.png" alt="">
+                                <img class="img-walk" src="./img/walk.png" alt="">
                             </div>
                             <div class="section-heading">
                                 truly inlimited flexi layout
@@ -509,28 +662,28 @@
                                 Build your business beautiful. Flexi has a business demo for every need,
                                 and a beautiful website makes it much easier.
                             </div>
-                            <ul class="be-features-info-list">
-                               
+                            <ul class="section-list">
                                 <li>
                                     <span>&#10003;</span>
                                     Fleaxible custom layout
                                 </li>
                                 <li>
                                     <span>&#10003;</span>
-                                    Beautiful demos with creative elements  
+                                    Beautiful demos with creative elements
                                 </li>
                                 <li>
                                     <span>&#10003;</span>
                                     Innovative, powerful and highly useful features
                                 </li>
                             </ul>
-                            <div class="be-features-info-btn">
-                                view demo
-                            </div>
+
+                            <button class="section-button">view demo</button>
+
                         </div>
                     </div>
-                    
+
                 </div>
+                <div class="clear"></div>
             </section>
             <section class="testimonial">
                 <div class="testimonial-container">
@@ -546,12 +699,21 @@
         </main>
         <footer class="footer">
             <div class="footer-container">
-                <div class="left">
-                    <img src="./img/mb.jpg" alt="" class="abs">
+                <div class="container-left">
+                    <img src="./img/mobile.png" alt="" class="abs">
                     <img src="./img/Rectangle 565.png" alt="" class="rec">
                 </div>
-                <div class="right">
-                    <img src="./img/purchase.png" alt="" >
+                <div class="container-right">
+                    <img src="./img/purchase.png" alt="">
+                    <div class="right-content">
+                        <div class="right-text">Create Your Perfect Website</div>
+                        <div class="right-btn">
+                            <div>
+                                <span>&#8594 </span>
+                                purchase now
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-text">
@@ -560,5 +722,38 @@
             </div>
         </footer>
     </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+          <div class="modal-close js-modal-close">
+            <i class="ti-close">
+            </i>
+          </div>
+          <header class="modal-header">
+            Tìm kiếm
+          </header>
+          <main>
+            <div class="modal-body">     
+                <input type="text" id="ticket-quantity" class="modal-input" placeholder="tìm kiếm?">    
+              </div>
+          </main>
+          <footer class="modal-footer">
+          </footer>
+        </div>
+      </div>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/isotope.pkgd.min.js"></script>
+    <script src="./assets/js/search.js"></script>
+    <script src="./assets/js/filter.js"></script>
+    
 </body>
+
 </html>
