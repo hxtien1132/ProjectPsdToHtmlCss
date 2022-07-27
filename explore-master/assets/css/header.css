@@ -259,13 +259,90 @@
     align-items: center;
   }
 }
+.modal {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  z-index: 99;
+  background: #fff;
+  width: 90%;
+  min-height: 600px;
+  position: relative;
+  max-width: calc(100%-32px);
+  animation: modalFadeIn ease 0.5s;
+}
+.modal-header {
+  z-index: 999;
+  background-color: #009688;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+}
+.modal-body{
+  margin: 100px 60px ;
+}
+
+.modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.modal-close:hover {
+  opacity: 1;
+}
+
+.modal-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+
+.modal.open {
+  display: flex;
+}
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-140px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 
 @media (max-width: 575.98px) { }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) { 
+  .modal{
+    top: 120px;
+  }
+ }
 
  /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {  }

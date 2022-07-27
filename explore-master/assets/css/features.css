@@ -62,8 +62,7 @@
     width: 330px;
   }
   @media screen and (max-width: 767.98px){
-    .features .features-list {
-      text-align: center;
+    .features .features-list {  
       gap: 10px;
       flex-direction: column;
     }
@@ -88,6 +87,12 @@
       object-fit: contain;
       max-width: 50px;
       max-height: 50px;
+    }
+    .features .section-heading{
+      text-align: center;
+    }
+    .features .logo-heading{
+      margin-left: 75px;
     }
 
 
