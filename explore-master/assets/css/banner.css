@@ -82,8 +82,8 @@
     .banner-container__content {
       background-color: transparent;
      /* margin-left: 100px; */
-     padding-left: 30px;
-     max-width: 420px ;
+     padding:0 20px;
+     max-width: 440px ;
   
     } 
     .banner-container-img img {
