@@ -297,6 +297,7 @@
 }
 .nav-list-mobile li {
   padding: 10px 8px;
+  font-weight: bold;
 }
 .nav-list-mobile li:hover {
   opacity: 0.7;
