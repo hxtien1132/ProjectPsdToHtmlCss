@@ -63,45 +63,82 @@
                     <img src="./img/Logo.png" alt="">
                 </div>
                 <div class="menu-container">
-                    <div class="menu-icon">
+                    <div class="menu-icon js-menu-ticket">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                     <div class="menu-search">
-                        <button class="btn js-buy-ticket"><i class="fa fa-search icon-search" aria-hidden="true"></i> </button>
+                        <button class="btn js-search-ticket"><i class="fa fa-search icon-search" aria-hidden="true"></i>
+                        </button>
                         <!-- <a href="" class="menu-search-link"><i class="fa fa-search icon-search"></i></a> -->
                     </div>
                 </div>
-                <ul class="header-nav">
-                    <li>
-                        <a href="">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Page demo
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            feature
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Support
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Shop
-                        </a>
-                    </li>
-                  
-                    <li>
-                        <button class="btn js-buy-ticket"><i class="fa fa-search " aria-hidden="true"></i> </button>
-                    </li>
-                </ul>
+                <div class="nav-pc">
+                    
+                    <ul class="nav-list">
+                        <li>
+                            <a href="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Page demo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                feature
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Support
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Shop
+                            </a>
+                        </li>
+
+                        <li>
+                            <button class="btn js-buy-ticket"><i class="fa fa-search " aria-hidden="true"></i> </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-mobile js-menu-ticket">
+                    <div class="mobile-close js-mobile-close">
+                        <i class="ti-close">
+                        </i>
+                    </div>
+                    <ul class="nav-list-mobile">
+                        <li>
+                            <a href="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Page demo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                feature
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Support
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Shop
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <h1 class="header-heading">
                     discover a stuning website
                 </h1>
@@ -152,7 +189,7 @@
                     <h3 class="section-text">
                         We provide perfect demo for all of business. Choose our demo and enjoy it!
                     </h3>
-                 
+
                     <div id="filters" class="filter button-group">
                         <button class="button is-checked" data-name="*">all</button>
                         <button class="button" data-name=".multipages">multipages</button>
@@ -724,23 +761,23 @@
     </div>
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
-          <div class="modal-close js-modal-close">
-            <i class="ti-close">
-            </i>
-          </div>
-          <header class="modal-header">
-            Tìm kiếm
-          </header>
-          <main>
-            <div class="modal-body">     
-                <input type="text" id="ticket-quantity" class="modal-input" placeholder="tìm kiếm?">    
-              </div>
-          </main>
-          <footer class="modal-footer">
-          </footer>
+            <div class="modal-close js-modal-close">
+                <i class="ti-close">
+                </i>
+            </div>
+            <header class="modal-header">
+                Tìm kiếm
+            </header>
+            <main>
+                <div class="modal-body">
+                    <input type="text" id="ticket-quantity" class="modal-input" placeholder="tìm kiếm?">
+                </div>
+            </main>
+            <footer class="modal-footer">
+            </footer>
         </div>
-      </div>
-  
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -753,7 +790,8 @@
     <script src="./assets/js/isotope.pkgd.min.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/filter.js"></script>
-    
+    <script src="./assets/js/menu.js"></script>
+
 </body>
 
 </html>
