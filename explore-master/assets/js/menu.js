@@ -8,11 +8,7 @@ function showBuyTickets() {
 function hideBuyTickets() {
   navmobile.classList.remove('open');
 }
-// for (const buyBtn of buytBtns) {
-//   buyBtn.addEventListener('click', showBuyTickets);
- 
 
-//  }
 menuBtns.addEventListener('click',showBuyTickets);
 navmobile.addEventListener('click', hideBuyTickets);
 mobileClose.addEventListener('click', hideBuyTickets);

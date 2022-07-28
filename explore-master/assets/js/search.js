@@ -1,4 +1,4 @@
-const buytBtns = document.querySelectorAll('.js-search-ticket');
+const buytBtns = document.querySelectorAll('.js-buy-ticket');
 const modal = document.querySelector('.modal');
 const modalClose = document.querySelector('.js-modal-close');
 const modalContainer = document.querySelector('.js-modal-container');
