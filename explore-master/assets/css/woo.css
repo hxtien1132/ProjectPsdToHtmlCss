@@ -17,7 +17,6 @@
     flex-direction: column;
     justify-content: center;
     padding-left:  50px;
-    flex-basis: 45%;
     /* padding: 30px 120px 30px 120px; */
     
   }
@@ -27,6 +26,7 @@
     bottom: -100px;
     max-width: 900px;
     max-height: 667px;  
+    flex: 60%;
   }
   .woo-img img {
     height: 120%;
@@ -98,7 +98,7 @@
   }
   @media (min-width: 1400px) { 
     .woo-container{
-     
+      padding: 0 15px;
     }
    }
   
